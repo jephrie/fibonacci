@@ -1,0 +1,18 @@
+{
+  "name": "fibonacci",
+  "version": "0.0.1",
+  "main": "fibonacci.html",
+  "author": "Jeffrey Tran",
+  "license": "ISC",
+  "description": "Generate the n'th number from the fibonacci sequence.",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server . -a localhost -p 8000 -c-1",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.23",
+    "http-server": "^0.10.0"
+  }
+}
